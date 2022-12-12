@@ -1,0 +1,39 @@
+/* 
+
+.container {
+    display: grid;
+    grid-auto-rows: ;
+
+} */
+
+.grid-container {
+
+    width: 80%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 100px 700px 100px;
+    padding: 0px;
+    margin: 1px;
+    text-align: center;
+    grid-auto-rows: 100px;
+    ;
+  }
+
+.grid-item {
+    justify-content: center;
+    padding: 30px;
+}
+
+.time {
+    background-color: yellow;
+}
+
+.input {
+    background-color: grey;
+}
+
+.button {
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 0px 15px 15px 0px;
+}
